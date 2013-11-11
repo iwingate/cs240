@@ -1,0 +1,9 @@
+class WholeNumber(object):
+    def __init__(self,a=0,b=0):
+        self.a = a
+        self.b = b
+    
+    def mult(self):
+        if self.a != int or self.b != int:
+        elif self.a < 0 and self.b < 0:
+            return None 
