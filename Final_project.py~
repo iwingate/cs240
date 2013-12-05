@@ -1,0 +1,25 @@
+class rooms(object):
+
+
+
+
+    def __init__(self,z)
+        self.grid_size = z
+	self.grid = []
+	for i in range(z):
+            row = [0] * z
+	    self.grid.append(row)
+
+    def __str__(self):
+        s = ''
+	for j in range(grid_size):
+            for i in range(grid_size):
+	        if not grid[i][j]:
+		    s += '{}'.format(' _ ')
+		else:
+		    s += '{}'.format(str(grid[i][j]))
+	    s += '\n'
+	return s
+
+
+
